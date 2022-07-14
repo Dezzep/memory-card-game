@@ -15,10 +15,9 @@ const Deck = () => {
   
   {cardMake('Arryn.png')}
   {cardMake('Baratheon.png')}
-  {cardMake('Brynden_Tully.png')}
+  {cardMake('Brynden.png')}
   {cardMake('Clegane.png')}
   {cardMake('direwolf.png')}
-  {cardMake('Frey_grey.png')}
   {cardMake('Greyjoy.png')}
   {cardMake('Joffrey_Baratheon.png')}
   {cardMake('Karstark.png')}
