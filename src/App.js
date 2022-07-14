@@ -1,8 +1,10 @@
 import './App.css';
+import Deck from './components/all_cards';
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <div className='text-primary-content bg-primary-focus/20 h-3/4 flex justify-evenly'>
+      <Deck/>
     </div>
   );
 }
