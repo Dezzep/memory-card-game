@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ScoreTracker from './components/scoreTracker';
 import Deck from './components/all_cards';
 
@@ -10,11 +10,18 @@ const App = () => {
   const renderMoreCards = (currentScore) => {
     if (currentScore === cardsToRender && cardsToRender <= 16)
       setCardsToRender(cardsToRender + 4)
+    else if (currentScore < 4) {
+      setCardsToRender(4);
+    }  
   }
 
   const scoreReceivedFromDeck = (deckScore = 0) => {
     setScore(deckScore);
   }
+  useEffect(() => {
+    renderMoreCards(score)
+  })
+
 
   return (
     <div>
