@@ -6,7 +6,7 @@ const ScoreTracker = (props) => {
     setHiscore(props.score);
   }
   return (
-    <div className="flex justify-evenly bg-red-500/25">
+    <div className="flex justify-evenly bg-red-500/25 fixed w-full text-lg lg:text-xl">
       <p>Current Score: {props.score}</p>
       <p>Hiscore: {hiscore}</p>
      </div>

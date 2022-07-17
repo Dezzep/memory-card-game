@@ -104,7 +104,7 @@ const Deck = (props) => {
   }
 
  else{ 
-  return (<div>
+  return (<div className="mt-6">
     <h1 className="text-white text-center text-xl mt-4 md:text-3xl font-bold">{props.roundDisplay}</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 text-white mb-8">
         {shuffle(cardsToChooseFrom)}
