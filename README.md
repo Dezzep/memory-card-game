@@ -7,6 +7,7 @@
 # How To Use:
 - Click on a card. 
 - Make sure you don't click the same card twice!
+- Clicking on hardmode removes the names in the cards.
 # Key Features:
 - Total of 3 rounds
 - After Each Click, the displayed cards are randomly shuffled with an unbiased algorithm (Fisher-Yates (Knuth) shuffle).
