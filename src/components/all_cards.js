@@ -100,11 +100,13 @@ const Deck = (props) => {
 
   })
   if (props.cardsAllowed === 'game_over') {
-    return(<div>{shuffle(cardsToChooseFrom)}</div>)
+    return(<div> {shuffle(cardsToChooseFrom)}</div>)
   }
 
  else{ 
   return (<div className="mt-6">
+    <h1 className="text-white text-center text-xl mt-4 md:text-3xl font-bold">Memory Card Game</h1>
+    <p className="bg-secondary-focus px-1 text-center mt-4">Don't Choose The Same Card Twice</p>
     <h1 className="text-white text-center text-xl mt-4 md:text-3xl font-bold">{props.roundDisplay}</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 text-white mb-8">
         {shuffle(cardsToChooseFrom)}
