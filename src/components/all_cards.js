@@ -100,7 +100,7 @@ const Deck = (props) => {
 
   })
   if (props.cardsAllowed === 'game_over') {
-    return(<div> {shuffle(cardsToChooseFrom)}</div>)
+    return(<div className="mt-6"> {shuffle(cardsToChooseFrom)}</div>)
   }
 
  else{ 
