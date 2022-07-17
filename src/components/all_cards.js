@@ -18,6 +18,7 @@ const Deck = (props) => {
   }
   const gameReset = () => {
     props.sendScore(0);
+    setSelectedCards([])
   }
   const alterDifficulty = () => {
     difficulty? setDifficulty(false) : setDifficulty(true);
