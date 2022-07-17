@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/memory-card-game/static/css/main.8edeaf7b.css",
-    "main.js": "/memory-card-game/static/js/main.644f5272.js",
+    "main.js": "/memory-card-game/static/js/main.ef4a2be0.js",
     "index.html": "/memory-card-game/index.html",
     "main.8edeaf7b.css.map": "/memory-card-game/static/css/main.8edeaf7b.css.map",
-    "main.644f5272.js.map": "/memory-card-game/static/js/main.644f5272.js.map"
+    "main.ef4a2be0.js.map": "/memory-card-game/static/js/main.ef4a2be0.js.map"
   },
   "entrypoints": [
     "static/css/main.8edeaf7b.css",
-    "static/js/main.644f5272.js"
+    "static/js/main.ef4a2be0.js"
   ]
 }
