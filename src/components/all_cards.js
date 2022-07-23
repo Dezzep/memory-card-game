@@ -113,9 +113,9 @@ const Deck = (props) => {
 
  else{ 
   return (<div className="mt-6">
-    <h1 className="text-white text-center text-xl mt-4 md:text-3xl font-bold">Memory Card Game</h1>
-    <p className="bg-secondary-focus px-1 text-center mt-4">Don't Choose The Same Card Twice</p>
-    <h1 className="text-white text-center text-xl mt-4 md:text-3xl font-bold">{props.roundDisplay}</h1>
+    <h1 className="text-slate-200 text-center text-xl mt-4 md:text-3xl font-bold">Memory Card Game</h1>
+    <p className="text-slate-200 px-1 text-center mt-4">Don't Choose The Same Card Twice</p>
+    <h1 className="text-slate-200 text-center text-xl mt-4 md:text-3xl font-bold">{props.roundDisplay}</h1>
     <HardMode toggle={alterDifficulty}></HardMode>
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 text-white mb-8">
         {shuffle(cardsToChooseFrom)}
